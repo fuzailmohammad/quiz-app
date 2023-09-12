@@ -6,7 +6,8 @@ class PrimaryFilledButton extends StatelessWidget {
   final String text;
   final VoidCallback onTap;
 
-  const PrimaryFilledButton({super.key, required this.text, required this.onTap});
+  const PrimaryFilledButton(
+      {super.key, required this.text, required this.onTap});
 
   @override
   Widget build(BuildContext context) {

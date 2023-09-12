@@ -11,7 +11,8 @@ class CustomTextField extends StatelessWidget {
   final TextFieldWrapper wrapper;
   final bool isEnabled;
 
-  const CustomTextField({super.key, 
+  const CustomTextField({
+    super.key,
     required this.wrapper,
     required this.hintText,
     this.maxLength,

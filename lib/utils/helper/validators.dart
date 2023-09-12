@@ -1,6 +1,5 @@
 extension TextValidators on String {
-  bool isValidEmail() => RegExp(r"^[^\s@]+@[^\s@]+\.[^\s@]+$")
-      .hasMatch(trim());
+  bool isValidEmail() => RegExp(r"^[^\s@]+@[^\s@]+\.[^\s@]+$").hasMatch(trim());
 
   bool isValidPhone() =>
       trim().isNotEmpty && int.parse(trim()).toString().length == 10;
